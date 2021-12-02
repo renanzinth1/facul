@@ -18,7 +18,9 @@ while True:
 
     if val == 'S' or val == 's':
         # envia mensagem para o lado passivo
-        sock.send(b'Ola, sou o lado ativo!')
+
+        txt = input("Digite um texto: ")
+        sock.send(txt.encode())
 
         # recebe resposta do lado passivo
         msg = sock.recv(1024)
