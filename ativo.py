@@ -17,8 +17,8 @@ while True:
     val = input("Deseja continuar recebendo echo [S/N]?")
 
     if val == 'S' or val == 's':
+        
         # envia mensagem para o lado passivo
-
         txt = input("Digite um texto: ")
         sock.send(txt.encode())
 
