@@ -1,2 +1,3 @@
-# PPGI/UFRJ/2021.3
+# PPGI/UFRJ
 ## Sistemas Distribuídos (MAB733)
+### 2021.3
