@@ -1,1 +1,1 @@
-# facul
+# Sistemas Distribuídos (MAB733)
